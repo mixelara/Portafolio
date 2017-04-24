@@ -1,0 +1,38 @@
+.home {
+  .logo {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .menu{
+    text-align: center;
+
+    ul{
+      padding: 0px;
+      list-style-type: none;
+
+      a {
+        text-decoration: none;
+      }
+      li {
+        h3 {
+          margin-bottom: 20px;
+          font-size: 2em;
+          font-family: $font-pp;
+          font-weight: 400;
+        }
+        h3.turquesa {
+          color: $color-turquesa;
+        }
+        h3.yellow {
+          color: $color-yellow;
+        }
+        h3.magenta {
+        color: $color-magenta;
+          }
+
+
+          }
+        }
+      }
+    }

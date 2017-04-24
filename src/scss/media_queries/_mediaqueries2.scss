@@ -1,0 +1,41 @@
+.menudesktop{
+  display: none;
+}
+
+@media (min-width: 480px){
+  .pro1 {
+    width: 285px;
+  }
+
+  .foticontact {
+      width: 350px;
+    }
+
+
+}
+@media (max-width:480px) {
+  .btn-lets-talk {
+    display: none;
+  }
+
+
+}
+
+@media (min-width: 769px) {
+  .pro1 {
+    width: 350px;
+    padding-left: 150px;
+  }
+
+  .imghamburguesa{
+    display: none;
+  }
+  .menudesktop{
+    display: block;
+  }
+
+  
+
+
+
+}

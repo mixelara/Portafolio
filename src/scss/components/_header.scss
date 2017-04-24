@@ -1,0 +1,50 @@
+.header {
+  a {
+    text-decoration: none;
+  }
+  h3 {
+    color: $color-blue;
+    font-size: 1.8em;
+    font-weight: 500;
+    font-family: $font-pp;
+
+  }
+  .imghamburguesa {
+    float:right;
+  }
+  .titleheader {
+    float: left;
+  }
+  .hammenu {
+    float: right;
+    padding-top: 25px;
+  }
+  .menudesktop{
+    float: right;
+    ul{
+      display: flex;
+      li{
+        padding-right: 30px;
+        list-style-type: none;
+        h4 {
+          color: $color-blue;
+          font-family: $font-pp;
+          font-size: 20px;
+          font-weight: 500;
+          margin: 0px;
+          padding: 10px;
+        }
+        h4:hover {
+          border: 2px solid #FF3260;
+          color: $color-blue;
+          font-family: $font-pp;
+          font-size: 20px;
+          font-weight: 500;
+          margin: 0px;
+          padding: 10px;
+        }
+      }
+    }
+  }
+
+}

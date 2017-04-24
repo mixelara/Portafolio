@@ -1,0 +1,75 @@
+.footer {
+  .tablefooter {
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    width: 100%;
+    .logo-footer {
+    padding-left: 20px;
+    }
+    .btn-lets-talk {
+      width: 45%;
+      a:link {
+        text-decoration: none;
+      }
+        .letstalk {
+          float: right;
+          h3 {
+            font-weight: 300;
+          }
+          font-family: $font-pp;
+          width: 185px;
+          height: 55px;
+          border: 1px solid white;
+          color: white;
+          text-align: center;
+
+        }
+    }
+    .btn-lets-talk:hover {
+      width: 45%;
+      a:link {
+        text-decoration: none;
+      }
+        .letstalk {
+          float: right;
+          h3 {
+            font-weight: 300;
+          }
+          font-family: $font-pp;
+          width: 185px;
+          height: 55px;
+          border: 0px solid white;
+          color: white;
+          text-align: center;
+
+        }
+    }
+    .links-social {
+      float: right;
+      padding-top: 20px;
+      padding-right: 20px;
+      ul{
+        list-style-type: none;
+        display: flex;
+        li{
+          color:white;
+          margin-left: 20px;
+          a:link{
+            text-decoration: none;
+          }
+          h6{
+            color: white;
+            font-family: $font-pp;
+            font-weight: 400;
+            font-size: 16px;
+            margin: 0px;
+          }
+
+        }
+      }
+
+      }
+    }
+
+  }

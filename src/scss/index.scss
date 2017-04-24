@@ -1,7 +1,16 @@
-h1{
-  color: red;
-}
+@import 'colors/colors';
+@import 'fonts/fonts';
 
-p {
-  text-align: center;
+@import 'components/footer';
+@import 'components/header';
+
+@import 'pages/home';
+@import 'pages/work';
+@import 'pages/project1';
+@import 'pages/letstalk';
+
+@import 'media_queries/mediaqueries2';
+
+body {
+  margin: 0px;
 }
